@@ -74,3 +74,27 @@ else if(colors.indexOf("black") > -1){
 else{
     console.log("Target Color is not in the colors array");
 }
+
+
+// Switch Statement
+var names = new Array("John", "Jane", "Mary", "Mark", "Bob");
+var n = names[Math.floor(Math.random() * names.length)];
+switch(n){
+     case "John":
+         console.log("John is selected");
+         break;
+     case "Jane":
+         console.log("Jane is selected");
+         break;
+     case "Mary":
+         console.log("Mary is selected");
+         break;
+     case "Mark":
+         console.log("Mark is selected");
+        break;
+     case "Bob":
+         console.log("Bob is selected");
+         break;
+     default:
+        console.log("No name is selected");
+ }
