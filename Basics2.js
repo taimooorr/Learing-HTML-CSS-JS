@@ -98,3 +98,17 @@ switch(n){
      default:
         console.log("No name is selected");
  }
+
+ // using &&
+var goodMood = true;
+var gotSleep = true;
+if (goodMood && gotSleep) {
+    console.log("today isagood day");
+}
+else {
+}
+console.log("Iam grumpy");
+
+//using **
+var num1 = 10;
+console.log(num1**2);// Output: 100
