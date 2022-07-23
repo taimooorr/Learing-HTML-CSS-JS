@@ -58,3 +58,19 @@ if(value1===Sval){
 else{
     console.log("value1 is not equal to Sval");
 }
+
+
+// Working with else if
+var colors = ["red", "blue", "green", "yellow", "orange", "purple"];
+if(colors.indexOf("blue") > -1){
+    console.log("blue is in the colors array");
+}
+else if(colors.indexOf("pink") > -1){
+    console.log("pink is in the colors array");
+}
+else if(colors.indexOf("black") > -1){
+    console.log("black is in the colors array");
+}
+else{
+    console.log("Target Color is not in the colors array");
+}
