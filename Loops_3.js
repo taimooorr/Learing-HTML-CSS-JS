@@ -23,3 +23,13 @@ while(i<5){
     console.log(`Hello Word ${i}\n`);
     i++;
 }
+
+var food = ["Pizza", "Burger", "Pasta", "Sushi"];
+var myString = "I am really hungary for some";
+console.log(`${myString} ${food[Math.floor(Math.random()*food.length)]}`);
+
+console.log("\n");
+//for loop
+for(var i = 0; i < food.length; i++){
+    console.log(`${myString} ${food[Math.floor(Math.random() * food.length)]}`);
+}
