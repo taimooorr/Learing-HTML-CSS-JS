@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Class</title>
+</head>
+<body>
+    <h1>
+        Events Class
+    </h1>
+    <button>Don't Press Me!</button>
+    <script>
+       //var myButton = document.querySelector('button');
+        function ocuh(event) {
+            alert('Told you not to press me!');
+        }
+       // myButton.addEventListener('click', ocuh);
+        //myButton.onclick = ocuh;
+        
+    </script>
+    <script>
+        //Annonymous function
+        /*var myButton = document.querySelector('button');
+        myButton.onclick = function() {
+            alert('Told you not to press me!');
+        };
+        */
+    </script>
+    <script>
+        //Event Listner
+        var myButton = document.querySelector('button');
+       // myButton.addEventListener('click', ocuh); 
+       //With Annonymous function
+        myButton.addEventListener('click', function() {
+            alert('Told you not to press me!');
+        });
+    </script>
+</body>
+</html>
